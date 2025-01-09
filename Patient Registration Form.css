@@ -1,0 +1,50 @@
+ 
+body
+{
+      background: url(Registration.bmp) no-repeat;
+     background-size: cover  ;
+     background-image: center;
+     color : rgb(67, 73, 106);
+
+} 
+    .Registration{
+     position: absolute ;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 470px;
+    }
+    .Registration  h1 {
+     font-size: 30px;
+     text-align: center;
+    text-transform: uppercase;
+    Margin:40px 0;
+
+    }
+    .Registration p {
+     font-size:20px;
+     margin:15px 0;
+    }
+    .Registration  input {
+     font-size:16px;
+     padding: 8px 10px;
+     width: 70%;
+     border:0;
+     border-radius:5px;
+     outline:none;
+    }
+    .Registration  button {
+     font-size :18px;
+     font-weight:bold;
+     margin :20px ;
+     padding : 10px 10px;
+     width:50%;
+     border:0;
+     border-radius: 5px;
+     background-color: rgba(9, 229, 133, 0.611);
+     
+
+    }
+    .Patient patient Registration Form  Form button:hover {
+     color:red;
+    }
